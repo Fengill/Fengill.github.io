@@ -6,7 +6,7 @@
   <link href="https://fengill.github.io/atom.xml" rel="self"/>
   
   <link href="https://fengill.github.io/"/>
-  <updated>2021-10-23T03:27:07.697Z</updated>
+  <updated>2021-10-23T04:33:52.670Z</updated>
   <id>https://fengill.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo更换主题后无法进入的处理方式</title>
+    <link href="https://fengill.github.io/2021/10/23/hexo%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98%E5%90%8E%E6%89%93%E4%B8%8D%E5%BC%80%E7%9A%84%E5%A4%84%E7%90%86%E6%96%B9%E5%BC%8F/"/>
+    <id>https://fengill.github.io/2021/10/23/hexo%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98%E5%90%8E%E6%89%93%E4%B8%8D%E5%BC%80%E7%9A%84%E5%A4%84%E7%90%86%E6%96%B9%E5%BC%8F/</id>
+    <published>2021-10-23T04:29:08.860Z</published>
+    <updated>2021-10-23T04:33:52.670Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id><a href="#" class="headerlink" title></a></h1><p>在hexo目录下打开git bash here,输入指令</p><blockquote><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive</span><br></pre></td></tr></table></figure></blockquote><p>接着输入</p><blockquote><p>$ hexo clean          #清楚缓存</p></blockquote><p>再输入</p><blockquote><p>$ hexo g</p><p>$ hexo s</p></blockquote><p>查看效果,如果网页正常显示,继续输入</p><blockquote><p>$ hexo g</p><p>$hexo d</p></blockquote><p>hexo就可以打开了</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;在hexo目录下打开git bash here,输入指令&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;t</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>hexo的基本使用方法</title>
